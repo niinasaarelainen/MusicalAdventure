@@ -1,0 +1,74 @@
+
+Tiedoksi: tässsä pelissä etsittävien esineiden paikat arvotaan, siksi aina toimivan kävelytyksen 
+laatiminen on mahdotonta. Teen kaksi erityyppistä ratkaisua. Molemmat ovat eri pelitilanteet, eli
+tavarat ovat eri huoneissa ja toinen on ns. tehokas tapa, toinen on fiilistelijän pelityyli, jolla
+juuri ja juuri pääsee läpi
+
+
+ 1) TEHOKAS  (ja "hieman" huijaava. Tässä ratkaisussa kerron koodin apuprinttausta käyttäen missä esineet ovat.
+    -------   Näin ei oikeassa pelissä (kts. kohta 2) tietenkään tapahdu.)
+   * kuulokkeet: Konserttisali 1
+   * äänityslaite: Anniskelualue
+   
+   w
+   nouki äänityslaite
+   ota pullo viskiä    (ALERT !!!!!!!! Tyyppi, jolle olet velkaa on samassa huoneessa. Pakene heti tai peli loppuu.)
+   z
+   w
+   ota munkki (ALERT !!!!!!!! Tyyppi, jolle olet velkaa on samassa huoneessa. Pakene heti tai peli loppuu.)
+   z   (Nyt sinun pitää päästä 4 minuutin sisällä vessaan.)
+   a   (Ehdit ajoissa vessaan!)
+   s
+   w  
+   w
+   nouki kuulokkeet
+   rec  (Mahtavuutta!!!  Äänitys lähti käyntiin ajoissa.)      (Kello on 18:42)
+   
+   
+   
+   
+ 2) FIILISTELYÄ (ei tietoa missä laitteet ovat)  
+    -----------
+   z
+   nouki kuulokkeet     (oma huomio: kauhee tsägä....)
+   help
+   inventaario
+   w
+   a
+   s
+   w
+   ota Valko-venäläläinen (ALERT !!!!!!!! Tyyppi, jolle olet velkaa on samassa huoneessa. Pakene heti tai peli loppuu.)
+   w
+   z
+   ota toinen 
+   z  (Nyt sinun pitää päästä 4 minuutin sisällä vessaan.)
+   a  (Ehdit ajoissa vessaan!)
+   s
+   s
+   nouki äänityslaite
+   w
+   a
+   ota olut  (ALERT !!!!!!!! Tyyppi, jolle olet velkaa on samassa huoneessa. Pakene heti tai peli loppuu.)
+   s  (oma huomio: tänne ei ollut mitään järkeä mennä, fiilistelen vain musaa)
+   a
+   s
+   a
+   w
+   rec  (Mahtavuutta!!!  Äänitys lähti käyntiin ajoissa.)     (Kello on 18:55)
+   
+   
+  Ja huom:  ALERT:itkaan eivät tule juuri näissä paikoissa, koska velkoja liikuskelee satunnaisesti. Hän ei yritä
+  seurata pelaajaa, ja voi siis olla että ei satu samaan huoneeseen kertaakaan pelin aikana (vaikkakin jostain syystä tuntuu 
+  tulevan Anniskelualuellee usein (!))
+   
+   
+   Known issues: 
+   1)pelin lopetustekstiä on liikaa ts. pelissä on ylimääräinen execute. Olisi vaatinut kohtuutonta vaivaa, 
+   jotta Player-tilasta olisin suoraan päässyt lopettamaan pelin, eli päässyt käsiksi lopetusehtoihin, jotka sijaitsevat 
+   Adventure-oliossa
+   2) vessassakäynti countdown 5min-->1min ei näy aina. Näkyy vain go-funktion jälkeen koska ensin pitää selvittää onko tyyppi
+   juuri liikkunut vessaan, jotta osaa arvioida oikeaa eikä vanhaa pelitilannetta. Siksi varoitus ei näy jos esim juo olutta.
+   Ehkä tämä tavallaan simuloi todellisuutta, jossa ajantaju saattaa joissain tilanteissa hävitä...
+   
+   
+   p.s. Musiikki on omaa tuotantoa, ei ole rikottu tekijänoikeuslakia ;->
